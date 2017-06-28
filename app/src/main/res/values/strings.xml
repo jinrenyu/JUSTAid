@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">JUSTAid</string>
+    <string name="username">学号：</string>
+    <string name="passwd">密码：</string>
+    <string name="randomcode">验证码：</string>
+    <string name="login">登录</string>
+    <string name="search_hint">开课时间</string>
+    <string name="weekChoice">&#xe64c; </string>
+    <string-array name="kksjChoice">
+        <item>2016-2017-1</item>
+        <item>2015-2016-3</item>
+        <item>2015-2016-2</item>
+        <item>2015-2016-1</item>
+        <item>2014-2015-3</item>
+        <item>2014-2015-2</item>
+        <item>2014-2015-1</item>
+    </string-array>
+    <string name="add_course_name_hint">(未填写)</string>
+    <string name="edit_course_teacher_hint">(未填写)</string>
+    <string name="general_cancle">取消</string>
+    <string name="general_confirm">确定</string>
+    <string name="action_about">关于</string>
+    <string name="action_settings">设置</string>
+    <string name="action_statistic">统计</string>
+    <string name="all_time_spendings">所有时间开支</string>
+    <string name="all_transactions">查看所有交易</string>
+    <string name="app_version">版本</string>
+    <string name="average_chart_headline">平均金额</string>
+    <string name="average_credit">平均信贷额度</string>
+    <string name="average_transactions">平均交易金额</string>
+    <string name="close">关闭</string>
+    <string name="credit">信用：</string>
+    <string name="credit_history">信用历史</string>
+    <string name="currency">￥</string>
+    <string name="currency_unit">货币</string>
+    <string name="delete_entry"></string>
+    <string name="put_card_to_device">将校园卡靠近设备</string>
+    <string name="save">保存</string>
+    <string name="saved">记录</string>
+    <string name="transaction_history">交易历史</string>
+    <string name="last_transaction">最后一笔交易</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_account">学号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_account">请输入数字</string>
+    <string name="error_invalid_password">密码太短了</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="kb">[{\"Course_address\":\"J1-205\",\"Course_name\":\"Unity3D应用开发\",\"Course_teacher\":\"靳延安\",\"Course_type\":\"专选\",\"Course_week\":\"周二第1,2节{第11-19周}\"},{\"Course_address\":\"J1-308\",\"Course_name\":\"3G网络应用开发\",\"Course_teacher\":\"白朔天\",\"Course_type\":\"专选\",\"Course_week\":\"周三第1,2节{第1-9周}\"},{\"Course_address\":\"J1-509\",\"Course_name\":\"TCP/IP协议分析\",\"Course_teacher\":\"胡长坤\",\"Course_type\":\"专业\",\"Course_week\":\"周四第1,2节{第1-19周}\"},{\"Course_address\":\"J1-212\",\"Course_name\":\"Unity3D应用开发\",\"Course_teacher\":\"靳延安\",\"Course_type\":\"专选\",\"Course_week\":\"周五第1,2节{第11-11周|单周}\"},{\"Course_address\":\"J1-212\",\"Course_name\":\"Unity3D应用开发\",\"Course_teacher\":\"靳延安\",\"Course_type\":\"专选\",\"Course_week\":\"周五第1,2节{第19-19周|单周}\"},{\"Course_address\":\"J1-202\",\"Course_name\":\"3G网络应用开发\",\"Course_teacher\":\"白朔天\",\"Course_type\":\"专选\",\"Course_week\":\"周五第1,2节{第8-9周}\"},{\"Course_address\":\"J1-202\",\"Course_name\":\"3G网络应用开发\",\"Course_teacher\":\"白朔天\",\"Course_type\":\"专选\",\"Course_week\":\"周五第1,2节{第1-2周}\"},{\"Course_address\":\"S2-507软件工程实验室\",\"Course_name\":\"Unity3D应用开发\",\"Course_teacher\":\"靳延安\",\"Course_type\":\"专选\",\"Course_week\":\"周五第1,2节{第12-18周}\"},{\"Course_address\":\"S2-407网络工程实验室\",\"Course_name\":\"3G网络应用开发\",\"Course_teacher\":\"白朔天\",\"Course_type\":\"专选\",\"Course_week\":\"周五第1,2节{第3-7周}\"},{\"Course_address\":\"J1-107\",\"Course_name\":\"Java EE网络编程技术\",\"Course_teacher\":\"戴志锋(戴志锋)\",\"Course_type\":\"专选\",\"Course_week\":\"周一第3,4节{第11-19周}\"},{\"Course_address\":\"S2-407网络工程实验室\",\"Course_name\":\"TCP/IP协议分析\",\"Course_teacher\":\"胡长坤\",\"Course_type\":\"专业\",\"Course_week\":\"周二第3,4节{第3-17周|单周}\"},{\"Course_address\":\"S2-407网络工程实验室\",\"Course_name\":\"网络性能测试与分析\",\"Course_teacher\":\"孙宝林\",\"Course_type\":\"专业\",\"Course_week\":\"周三第3,4节{第2-18周|双周}\"},{\"Course_address\":\"J1-103\",\"Course_name\":\"毛泽东思想和中国特色社会主义(2)\",\"Course_teacher\":\"肖春艳/丁银河/颜红霞/巨英/罗运洪/包蕾/易成/董大敏/吕梦醒\",\"Course_type\":\"通必\",\"Course_week\":\"周一第7,8节{第1-18周}\"},{\"Course_address\":\"S2-407网络工程实验室\",\"Course_name\":\"网络性能测试与分析\",\"Course_teacher\":\"孙宝林\",\"Course_type\":\"专业\",\"Course_week\":\"周二第7,8节{第1-19周}\"},{\"Course_address\":\"S2-412软件实验室\",\"Course_name\":\"网络程序设计\",\"Course_teacher\":\"曾长军\",\"Course_type\":\"专业\",\"Course_week\":\"周三第7,8节{第3-19周|单周}\"},{\"Course_address\":\"J2-210\",\"Course_name\":\"网络程序设计\",\"Course_teacher\":\"曾长军\",\"Course_type\":\"专业\",\"Course_week\":\"周五第7,8节{第1-19周}\"},{\"Course_address\":\"S2-407网络工程实验室\",\"Course_name\":\"Java EE网络编程技术\",\"Course_teacher\":\"戴志锋(戴志锋)\",\"Course_type\":\"专选\",\"Course_week\":\"周二第9,10节{第11-19周}\"},{\"Course_address\":\"J1-404\",\"Course_name\":\"网络管理\",\"Course_teacher\":\"王桐\",\"Course_type\":\"专选\",\"Course_week\":\"周四第9,10节{第1-19周|单周}\"},{\"Course_address\":\"S2-407网络工程实验室\",\"Course_name\":\"网络管理\",\"Course_teacher\":\"王桐\",\"Course_type\":\"专选\",\"Course_week\":\"周四第9,10节{第2-18周|双周}\"}]</string>
+
+
+</resources>

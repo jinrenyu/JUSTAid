@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="JustCard"></dbname>
+    <version value="3"></version>
+    <list>
+        <mapping class="com.example.android.justaid.info.Student"></mapping>
+        <mapping class="com.example.android.justaid.info.Score"></mapping>
+        <mapping class="com.example.android.justaid.info.BookInfo"></mapping>
+    </list>
+</litepal>

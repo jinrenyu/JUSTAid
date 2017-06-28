@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_course_rlyt_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/add_course_rlyt_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_edit_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ToolbarMenuTextColor">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="编辑课程"
+                android:textColor="@color/course_Color"
+                android:textSize="20dp" />
+        </android.support.v7.widget.Toolbar>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/add_course_rlyt_body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/add_course_rlyt_title"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/add_course_sllv_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="16.0dip">
+
+                    <!--防止已进入就弹出输入法
+                        focusable
+                        focusableInTouchMode
+                    -->
+                    <LinearLayout
+                        android:id="@+id/add_course_llyt_course_info"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="16.0dip"
+                        android:paddingRight="16.0dip">
+
+
+                        <TextView
+                            style="@style/general_list_tab_blue"
+                            android:text="课程内容"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <RelativeLayout
+                            android:id="@+id/add_course_rlyt_courseName"
+                            style="@style/general_item_layout_top_unclick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="课程名称"
+                                android:textColor="@color/detail_course_info_tips"
+                                android:textSize="16.0dip" />
+
+                            <AutoCompleteTextView
+                                android:id="@+id/add_course_edt_courseName"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:background="@color/lucency_white"
+                                android:completionThreshold="1"
+                                android:dropDownHeight="wrap_content"
+                                android:hint="@string/add_course_name_hint"
+                                android:imeOptions="actionNext"
+                                android:paddingLeft="90.0dip"
+                                android:popupBackground="@drawable/ic_myspinner_list_background"
+                                android:singleLine="true"
+                                android:textColor="@color/detail_course_info_text"
+                                android:textColorHint="@color/setting_unset_text"
+                                android:textSize="16.0dip" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/add_course_rlyt_position"
+                            style="@style/general_item_layout_middle_unclick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="地点"
+                                android:textColor="@color/detail_course_info_tips"
+                                android:textSize="16.0dip" />
+
+                            <AutoCompleteTextView
+                                android:id="@+id/add_course_edt_position"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:background="@color/lucency_white"
+                                android:completionThreshold="1"
+                                android:dropDownHeight="wrap_content"
+                                android:hint="@string/edit_course_teacher_hint"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:paddingLeft="90.0dip"
+                                android:popupBackground="@drawable/ic_myspinner_list_background"
+                                android:textColor="@color/detail_course_info_text"
+                                android:textColorHint="@color/setting_unset_text"
+                                android:textSize="16.0dip" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/add_course_rlyt_teacher"
+                            style="@style/general_item_layout_middle_unclick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="老师"
+                                android:textColor="@color/detail_course_info_tips"
+                                android:textSize="16.0dip" />
+
+                            <AutoCompleteTextView
+                                android:id="@+id/add_course_edt_teacher"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:background="@color/lucency_white"
+                                android:completionThreshold="1"
+                                android:dropDownHeight="wrap_content"
+                                android:hint="@string/edit_course_teacher_hint"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:paddingLeft="90.0dip"
+                                android:popupBackground="@drawable/ic_myspinner_list_background"
+                                android:textColor="@color/detail_course_info_text"
+                                android:textColorHint="@color/setting_unset_text"
+                                android:textSize="16.0dip" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/add_course_llyt_course_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:orientation="vertical"
+                        android:paddingLeft="16.0dip"
+                        android:paddingRight="16.0dip">
+
+
+                        <TextView
+                            style="@style/general_list_tab_blue"
+                            android:text="课程时间"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <RelativeLayout
+                            android:id="@+id/add_course_rlyt_section"
+                            style="@style/general_item_layout_middle"
+                            android:onClick="on_edit_section_click"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="节数"
+                                android:textColor="@color/detail_course_info_tips"
+                                android:textSize="16.0dip" />
+
+                            <TextView
+                                android:id="@+id/edit_course_txv_section"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="90.0dip"
+                                android:layout_marginRight="34.0dip"
+                                android:gravity="center|left"
+                                android:text="选择上课节数"
+                                android:textColor="@color/grey"
+                                android:textSize="16.0dip"
+
+                                />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/add_course_rlyt_week"
+                            style="@style/general_item_layout_middle"
+                            android:onClick="on_edit_week_click"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="周数"
+                                android:textColor="@color/detail_course_info_tips"
+                                android:textSize="16.0dip" />
+
+                            <TextView
+                                android:id="@+id/edit_course_txv_week"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="90.0dip"
+                                android:layout_marginRight="34.0dip"
+                                android:gravity="center|left"
+                                android:text="选择上课周数"
+                                android:textColor="@color/grey"
+                                android:textSize="16.0dip"
+
+                                />
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

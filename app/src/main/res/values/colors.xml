@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2f97d6</color>
+    <color name="colorPrimaryDark">#2f97d6</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="windowBackGround">#2C77B8</color>
+    <color name="courseWeek">#2f97d6</color>
+    <color name="Lightblue">#053a51</color>
+    <color name="Black">#000000</color>
+    <color name="course_Color">#ffffff</color>
+    <color name="greybackground">#e4e4e4</color>
+    <color name="light_gray">#fff5f5f5</color>
+    <color name="classroom_search">#2f97d6</color>
+    <color name="classroom_search2">#6ec6fc</color>
+    <color name="white">#ffffffff</color>
+    <color name="week_control_text">#ff495468</color>
+    <color name="select_course_time_divider">#ffdddddd</color>
+    <color name="lucency_white">#00ffffff</color>
+    <color name="dlg_blue">#ff3b97e9</color>
+    <color name="choose_item">#ffa2d317</color>
+    <color name="black">#ff000000</color>
+    <color name="background">#ffffffff</color>
+    <color name="tip_bar_text_normal">#ffdf9d1f</color>
+    <color name="list_tab_blue">#ff3b95e8</color>
+    <color name="detail_course_info_tips">#ff333333</color>
+    <color name="detail_course_info_text">#ff666666</color>
+    <color name="setting_unset_text">#ffffa100</color>
+    <color name="add_item_text_green">#ff00b500</color>
+    <color name="lucency_black">#00000000</color>
+    <color name="grey">#ff666666</color>
+    <color name="lucency_black_20">#33000000</color>
+    <color name="dlg_title">#ff666666</color>
+    <color name="orange_dark">#ffff8800</color>
+    <color name="blue_dark">#ff0099cc</color>
+
+    <color name="primary">#259b24</color>
+    <color name="primary_dark">#0a7e07</color>
+    <color name="accent">#ff4081</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="background_grey">#FFEEEEEE</color>
+
+    <!--line chart colors-->
+    <!--primary as background and primary dark as grid-->
+    <color name="green_primary">#4CAF50</color>
+    <color name="green_primary_dark">#388E3C</color>
+    <color name="indigo_primary">#3F51B5</color>
+    <color name="indigo_primary_dark">#303F9F</color>
+    <color name="purple_primary">#9C27B0</color>
+    <color name="purple_primary_dark">#7B1FA2</color>
+    <color name="deep_orange_primary">#FF5722</color>
+    <color name="deep_orange_primary_dark">#E64A19</color>
+    <color name="deep_orange_300">#FF8A65</color>
+    <!--line chart-->
+    <color name="line_bg">#00bba7</color>
+    <color name="line_grid">#00a694</color>
+    <color name="line">#ffffff</color>
+    <color name="line_fill">#30ffffff</color>
+    <color name="line_tooltip">#ffffff</color>
+
+
+    <color name="boder">#A6CEDA</color>
+    <color name="font">#6291B4</color>
+    <color name="course_font_color">#ffffff</color>
+
+
+    <color name="backgroud">#F0FFF0</color>
+
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+</resources>
